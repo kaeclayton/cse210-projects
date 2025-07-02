@@ -37,8 +37,8 @@ foreach (int num in numbers)
     }
 }
 
-int numCount = numbers.Count;
-float average = sum / numCount;
+float numCount = numbers.Count;
+float average = (float)sum / numCount;
 
 Console.WriteLine($"The sum is: {sum}");
 Console.WriteLine($"The average is: {average}");
