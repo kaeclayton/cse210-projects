@@ -11,7 +11,7 @@ class Program
         Address address3 = new Address("3233 E Siggard Dr", "Kailua", "HI", "USA");
 
         Customer customer1 = new Customer("Abram Holmgren", address1);
-        Customer customer2 = new Customer("Finnley Daniels", address2);
+        Customer customer2 = new Customer("Finnley Daniel", address2);
         Customer customer3 = new Customer("Peter Clayton", address3);
 
         Product product1 = new Product("Lego Castle", 100100, 499.98, 1);

@@ -15,7 +15,7 @@ public class Address
 
     public string GetCompleteAddress()
     {
-        return $"{_streetAddress}\n{_city}, {_stateOrProvince}\n{_country}";
+        return $"{_streetAddress}\n{_city}, {_stateOrProvince}\n{_country} ";
     }
 
     public bool IsInUSA()

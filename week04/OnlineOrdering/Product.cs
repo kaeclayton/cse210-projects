@@ -12,6 +12,7 @@ public class Product
         _price = price;
         _quantity = quantity;
     }
+    
     public double CalculateTotal()
     {
         return _quantity * _price;
